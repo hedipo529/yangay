@@ -1,8 +1,11 @@
+/* Estilo global */
 body {
     color: white;
     background-color: black;
-    font-family:Arial, Helvetica, sans-serif ;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Estilo da lista de navegação */
 ul {
     display: flex;
     justify-content: space-between;
@@ -10,26 +13,63 @@ ul {
     align-items: center;
     padding: 16px;
 }
+
+/* Estilo da imagem no header */
 header img {
     border-radius: 50%;
     border: 5px solid green;
 }
 
+/* Estilo da classe usada no header */
 .classs {
     text-align: center;
 }
 
-h1{
+/* Estilo do título principal */
+h1 {
     color: green;
 }
 
+/* Estilo da imagem no footer */
 footer img {
     width: 50px;
     height: 50px;
-
 }
 
+/* Estilo do footer */
 footer {
     display: flex;
     justify-content: center;
+}
+
+/* Estilo da barra de pesquisa */
+.search-bar {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid green;
+    background-color: white;
+    color: black;
+}
+
+.search-bar button {
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+/* Estilo para destacar os resultados da pesquisa */
+.highlight {
+    background-color: yellow;
+    color: black;
 }
